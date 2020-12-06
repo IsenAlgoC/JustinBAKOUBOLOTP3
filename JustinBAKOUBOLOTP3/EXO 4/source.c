@@ -1,9 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void AffichageIPv4(int Valeur) {
-
-}
 int main() {
 	
 	int MyAddress_w = 192;
@@ -35,7 +32,7 @@ int main() {
 
 	printf("\n adresse broadcast IPv4 =%d.%d.%d.%d", Adresse_Broadcast_w, Adresse_Broadcast_x, Adresse_Broadcast_y, Adresse_Broadcast_z);
 	
-	// On déduie ainsi l'algorythme donnant l'adresse Réseau et adresse broadcast pour toute adresse réseau personnelle.
+	// On dÃ©duie ainsi l'algorythme donnant l'adresse RÃ©seau et adresse broadcast pour toute adresse rÃ©seau personnelle.
 	printf("\n");
 	system("PAUSE"); 
 	return (EXIT_SUCCESS);
